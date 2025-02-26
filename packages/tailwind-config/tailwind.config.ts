@@ -8,31 +8,20 @@ const config: Omit<Config, "content"> = {
         "glow-conic":
           "conic-gradient(from 180deg at 50% 50%, #2a8af6 0deg, #a853ba 180deg, #e92a67 360deg)",
       },
-    },
-    fontSize: {
-      "post-title": [
-        "2.75rem",
-        {
-          lineHeight: "1.5",
-          letterSpacing: "-0.004em",
-          fontWeight: "700",
-        },
-      ],
-      "post-context-on-markdown": ["18px"],
-      "post-title-on-list": [
-        "1rem",
-        {
-          lineHeight: "1.5",
-        },
-      ],
-      "post-description-on-list": [
-        "14px",
-        {
-          lineHeight: "1.5",
-        },
-      ],
-      "post-info-on-list": ["12px"],
-      pagination: ["14px"],
+      color: {
+        primary: "var(--text-primary)",
+      },
+      fontSize: {
+        "markdown-title": [
+          "2.75rem",
+          {
+            lineHeight: "1.5",
+            letterSpacing: "-0.004em",
+            fontWeight: "700",
+          },
+        ],
+        "markdown-content": ["18px"],
+      },
     },
   },
   plugins: [],

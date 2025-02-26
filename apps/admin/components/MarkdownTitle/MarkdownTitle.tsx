@@ -7,7 +7,7 @@ export default function MarkdownTitle() {
 
   return (
     <textarea
-      className="block text-post-title w-full h-16 overflow-hidden resize-none"
+      className="block w-full h-16 text-markdown-title overflow-hidden resize-none outline-none"
       placeholder="제목을 작성해주세요."
       defaultValue={title}
       onChange={setTitle}

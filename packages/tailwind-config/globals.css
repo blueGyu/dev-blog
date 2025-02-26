@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --test: #facc15;
+  --text-primary: #212529;
+}
+
+body {
+  color: var(--text-primary);
 }
