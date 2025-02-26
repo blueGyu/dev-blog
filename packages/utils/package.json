@@ -1,0 +1,15 @@
+{
+  "name": "@repo/utils",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    "./remark": "./remark/remark.js"
+  },
+  "dependencies": {
+    "remark": "^15.0.1",
+    "remark-breaks": "^4.0.0",
+    "remark-gfm": "^4.0.1",
+    "remark-html": "^16.0.1"
+  }
+}
